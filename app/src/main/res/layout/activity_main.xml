@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sakana Bento"
+        android:textSize="48dp"
+        android:id="@+id/tv_activity_main_first_activity"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorDanger"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sakanaBento"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logomin"
+        android:layout_marginBottom="20dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tempat Untuk Membuat daftar menu"
+        android:textSize="20dp"
+        android:id="@+id/tv_activity_main_second_activity"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/colorDanger"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Makanan"
+        android:textSize="20dp"
+        android:id="@+id/desc_text"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/colorDanger"/>
+
+    <Button
+        android:id="@+id/btn_daftar_makanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Daftar Menu Makanan"
+        android:onClick="DaftarStockMakanan"
+        android:layout_marginBottom="20dp"
+        android:theme="@style/buttonstyle1"
+        />
+
+</LinearLayout>

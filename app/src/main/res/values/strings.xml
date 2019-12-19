@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SakanaBento</string>
+    <string name="empty_list_text">empty_list_text</string>
+    <string name="enter_food">enter_food</string>
+    <string name="enter_price">enter_price</string>
+    <string name="add_record">add_record</string>
+    <string name="btn_update">btn_update</string>
+    <string name="btn_delete">btn_delete</string>
+    <string name="enter_drink">enter_drink</string>
+    <string name="Name">Name</string>
+    <string name="Password">Password</string>
+    <string name="masukkan_nama_makanan">masukkan_nama_makanan</string>
+    <string name="masukkan_harga_makanan">masukkan_harga_makanan</string>
+    <string name="ubah_nama_makanan">ubah_nama_makanan</string>
+    <string name="ubah_harga_makanan">ubah_harga_makanan</string>
+    <string name="update">update</string>
+    <string name="delete">delete</string>
+    <string name="submit">submit</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="buttonstyle1" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/orange</item>
+        <item name="colorButtonNormal">@color/orange</item>
+    </style>
+
+    <style name="buttonstyle2" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/childblue</item>
+        <item name="colorButtonNormal">@color/blue</item>
+    </style>
+
+    <style name="buttonstyle3" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorDanger</item>
+        <item name="colorButtonNormal">@color/colorDanger</item>
+    </style>
+
+    <style name="buttonstyle4" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/green</item>
+        <item name="colorButtonNormal">@color/green</item>
+    </style>
+
+    <style name="darkactionbar" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+    </style>
+</resources>
